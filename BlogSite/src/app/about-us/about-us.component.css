@@ -1,0 +1,8 @@
+.about-us{
+	position: relative;
+	left: 250px;
+	height: 100vh;
+	width: calc(100% - 250px);
+	background-color: #fff;
+	margin-top: 80px;
+}

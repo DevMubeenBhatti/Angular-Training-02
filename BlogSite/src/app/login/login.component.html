@@ -1,0 +1,63 @@
+<section class="container-fluid">
+	<div class="row">
+		<div class="col-md-6 ps-0">
+			<div class="login-Container">
+				<div class="bg-login">
+					<img class="car" src="../../assets/images/auth-car.png" alt="login">
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="container">
+				<div class="welcome">
+					<h1>Hello <br> Welome Back :)</h1>
+					<p>Login to Access Dashboard</p>
+					<div>
+						<form class="form-login" action="">
+							<div class="row g-4">
+								<div class="col-12">
+									<div class="form-floating">
+										<i class="far fa-user"></i>
+										<input class="form-control" type="name" id="userName" placeholder="USER-NAME">
+										<label for="userName">USERNAME</label>
+									</div>
+								</div>
+								<div class="col-12">
+									<div class="form-floating">
+										<i class="fas fa-lock"></i>
+										<input class="form-control" type="password"
+										id="InputPassword"
+										placeholder="PASSWORD(CASE_SENSITIVE)">
+										<label for="userPassword">PASSWORD</label>
+									</div>
+								</div>
+							</div>
+						</form>
+						<div class="loginBottom mt-5">
+							<div class="mb-3 form-check">
+								<input type="checkbox"
+								class="form-check-input"
+								id="loginCheck">
+								<label class="form-check-label" for="loginCheck">
+									Remember me
+								</label>
+							</div>
+							<div class="forpass">
+								<span (click)="forgotPass()">Forgot password?</span>
+							</div>
+						</div>
+						<div class="col-12">
+							<button class="btn btn-primary btn-fill px-4" type="submit" (click)="signIn()">
+								SIGN IN
+							</button>
+							<button class="btn btn-out ms-2 px-4" type="submit"
+							(click)="signUp()">
+								SIGN UP
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

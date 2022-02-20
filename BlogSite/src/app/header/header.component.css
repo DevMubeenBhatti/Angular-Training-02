@@ -1,0 +1,16 @@
+.navbar{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+}
+.bg-light{
+	background-color: #fff !important
+}
+.btn-out{
+	border: 2px solid #244ae0 !important;
+	border-radius: 12px !important;
+	text-align: center;
+	cursor: pointer;
+}

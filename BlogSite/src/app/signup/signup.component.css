@@ -1,0 +1,94 @@
+.bg-login{
+	background-image: url("../../assets/images/auth.png");
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.login-Container{
+	position: relative;
+}
+
+.car{
+	position: absolute;
+	bottom: 0;
+	width: 50%;
+	left: 22%;
+}
+
+.welcome{
+	margin: 45px;
+}
+
+.welcome h1{
+	font-weight: bold;
+}
+
+.welcome p {
+	font-size: 14px;
+	color: #808191;
+}
+.loginBottom{
+	justify-content: space-between;
+	display: flex;
+	width: 90%;
+	font-size: 14px;
+	color: #808191;
+}
+.btn-fill{
+	display: inline-block;
+	cursor: pointer;
+	font-size: 14px;
+	background: #244ae0;
+	border-radius: 12px;
+}
+.btn-fill:hover{
+	box-shadow: #244ae0;
+}
+.btn-out{
+	border: 2px solid #244ae0 !important;
+	border-radius: 12px !important;
+	text-align: center;
+	cursor: pointer;
+}
+
+.forpass{
+	cursor: pointer;
+}
+
+.form-login .form-control{
+	border-radius: 12px;
+	line-height: 30px;
+	padding: 20px 20px 10px 20px;
+	border: 1px solid #f7f7f7;
+	background-color: #f5f5f5;
+	width: 100%;
+}
+
+.form-login .form-floating{
+	position: relative;
+}
+
+.form-login .form-floating > label{
+	left: 32px;
+}
+
+.form-login .form-floating .form-control{
+	padding-left: 45px;
+}
+
+.form-login .form-floating i{
+	position: absolute;
+	left: 15px;
+	top: 20px;
+	font-size: 18px;
+	color: #999999;
+}
+
+.form-login .form-floating .form-control:hover,
+.form-login .form-floating .form-control:focus{
+	background-color: #f5f5f5;
+	box-shadow: none;
+	border-radius: #f5f5f5;
+}
