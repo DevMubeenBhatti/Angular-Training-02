@@ -13,7 +13,7 @@
 					<h1>Hello <br> Welome Back :)</h1>
 					<p>Login to Access Dashboard</p>
 					<div>
-						<form class="form-login">
+						<form class="form-login" (ngSubmit)="onSubmit()" novalidate>
 							<div class="row g-4">
 								<div class="col-12">
 									<div class="form-floating">
@@ -47,7 +47,7 @@
 							</div>
 						</div>
 						<div class="col-12">
-							<button class="btn btn-primary btn-fill px-4" type="submit" value="signIn" (click)="signIn()">
+							<button class="btn btn-primary btn-fill px-4" type="submit" value="signIn" (click)="onSubmit()">
 								SIGN IN
 							</button>
 							<button class="btn btn-out ms-2 px-4" type="submit"
